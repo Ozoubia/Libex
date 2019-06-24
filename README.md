@@ -1,4 +1,4 @@
-<img src="Libex/Libex/Resources/appIcon.ico">
+![logo]=(https://github.com/Ozoubia/Libex/Libex/Resources/appicon.ico)
 
 # LibeX-LibraryStockManagaer
 Library stock manager written in C#
