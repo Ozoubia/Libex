@@ -1,4 +1,4 @@
-![](Resources/1.png)
+![](Libex/Resources/1.png)
 
 # LibeX-LibraryStockManagaer
 Library stock manager written in C#
