@@ -1,3 +1,5 @@
+<img src="Libex/Libex/Resources/appIcon.ico">
+
 # LibeX-LibraryStockManagaer
 Library stock manager written in C#
 *****Main Functionalities*****
