@@ -1,4 +1,4 @@
-![](Resources/appIcon.ico)
+![](Resources/1.png)
 
 # LibeX-LibraryStockManagaer
 Library stock manager written in C#
