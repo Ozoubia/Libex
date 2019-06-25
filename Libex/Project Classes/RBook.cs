@@ -28,7 +28,7 @@ namespace Libex
         string AboutBook;
         ImageSource RBookCover;
         //ADditional inforamtion
-        string RBookStatus;
+        
         
         //rent book class constructor
         public RBook(string rentBookName, string rentBookISBN, int rentBookEdition, int rentBookNbrPage, string rentBookAuthor,
