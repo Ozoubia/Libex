@@ -14,6 +14,7 @@
 ## Introduction
 
 ## Prerequisites
+* [Material Design in XAML Plugin](http://materialdesigninxaml.net/)
 
 ## Installation
 1- First you start by cloning the project in your hard drive <br />
