@@ -2,21 +2,30 @@
 
 # LibeX Library Stock Management App
 ## Table of Contents
+* [Introduction](#introduction)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+* [Preview](#preview)
+* [Built with](#built-with)
+* [Contributers](#contributers)
+
+
 
 ## Introduction
 
-## Requirements
+## Prerequisites
 
-## Instalation
+## Installation
 1- First you start by cloning the project in your hard drive <br />
     ```
     git clone https://github.com/Ozoubia/Libex.git
     ```
 
-## Screenshots
+## Preview
 
 ## Built with 
 - C# .NET 4.7
+- Visual studio 2017 IDE
 
 ## Contributers
 * [Oussama Zoubia](https://github.com/Ozoubia) 
