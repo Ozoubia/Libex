@@ -24,7 +24,7 @@ from
     ```
     git clone https://github.com/Ozoubia/Libex.git
     ```
-    <br />
+   
 2- Open the project in Visual studio IDE <br />
 3- You will have to install the missing packages, Go to NuGet Package Manager in VS, It'll ask you to download the missing packages 
 automatically which is the best option, wait for them to be installed and you're good to go.<br />
@@ -33,9 +33,12 @@ automatically which is the best option, wait for them to be installed and you're
    * SQL server compact v4
    * DotNetZip 
    * Dragablz
-   * LiveCharts
-   <br />
-**PS** : Sometimes installing the packages automatically will install **EntityFramework.SQlServerCompact** along with them (which in this case we don't need and it will cause an error, so if it is installed go to NuGet Package Manager and remove it from the project) <br />
+   * LiveCharts 
+
+
+**PS** : Sometimes installing the packages automatically will install **EntityFramework.SQlServerCompact** along with them (which in this case we don't need and it will cause an error, so if it is installed go to NuGet Package Manager and remove it from the project) 
+
+
 ## Built with 
 - Visual studio 2017 IDE
 - C# .NET 4.7
