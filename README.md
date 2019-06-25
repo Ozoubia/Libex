@@ -5,6 +5,7 @@
 * [Introduction](#introduction)
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
+* [Preview](#preview)
 * [Built with](#built-with)
 * [Contributers](#contributers)
 * [Project Status](#project-status)
@@ -37,6 +38,9 @@ automatically which is the best option, wait for them to be installed and you're
 
 
 **PS** : Sometimes installing the packages automatically will install **EntityFramework.SQlServerCompact** along with them (which in this case we don't need and it will cause an error, so if it is installed go to NuGet Package Manager and remove it from the project) 
+
+
+## Preview
 
 
 ## Built with 
