@@ -4,11 +4,11 @@
 ## Table of Contents
 * [Introduction](#introduction)
 * [Prerequisites](#prerequisites)
-* [Installation](#installation)
-* [Preview](#preview)
+* [Setup](#setup)
 * [Built with](#built-with)
 * [Contributers](#contributers)
 * [Project Status](#project-status)
+* [Screenshots](#screenshots)
 
 
 
@@ -20,7 +20,7 @@ from
 * [SQLite/SQL server compact v4.0 toolbox](https://marketplace.visualstudio.com/items?itemName=ErikEJ.SQLServerCompactSQLiteToolbox)
 * [Microsoft SQL Server Compact v4.0](https://www.microsoft.com/fr-fr/download/details.aspx?id=17876)
 
-## Installation
+## Setup
 1- First you start by cloning the project in your hard drive <br />
     ```
     git clone https://github.com/Ozoubia/Libex.git
@@ -40,9 +40,6 @@ automatically which is the best option, wait for them to be installed and you're
 **PS** : Sometimes installing the packages automatically will install **EntityFramework.SQlServerCompact** along with them (which in this case we don't need and it will cause an error, so if it is installed go to NuGet Package Manager and remove it from the project) 
 
 
-## Preview
-
-
 ## Built with 
 - Visual studio 2017 IDE
 - C# .NET 4.7
@@ -58,4 +55,11 @@ automatically which is the best option, wait for them to be installed and you're
 99% finished 
 All features are working 
 The multi language features code works, but the application is not yet rewritten in arabic and french language
+
+## Screenshots
+<p align="center"><img src="Libex/Resources/1.PNG" width="500" height="350"></p>
+<img align="left" src="Libex/Resources/1.PNG" width="500" height="350">
+<img align="left" src="Libex/Resources/an1.PNG" width="500" height="350">
+<img src="Libex/Resources/an2.PNG" width="500" height="350">
+
 
