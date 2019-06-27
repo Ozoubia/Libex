@@ -54,7 +54,7 @@ automatically which is the best option, wait for them to be installed and you're
 
 ## Built with 
 - Visual studio 2017 IDE
-- C# .NET 4.7
+- C# .NET 4.5
 - Material Design in XAML 
 - Dragablz
 - LiveCharts
