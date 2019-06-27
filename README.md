@@ -13,8 +13,20 @@
 
 
 ## Introduction
-Libex is a library stock mangement desktop application (for windows only), it provides the basic management features like adding, editing or deleting books
-from 
+Libex is a library stock mangement desktop application (for windows only), it makes a library management as easy as it gets, with an easy to use and an ergonimic interface, an eye appealing modern flat design with a possibility to change the application theme to up to three flat colors, it offers all the basic featues of library mangement (adding, editing and deleting books, clients or orders) to advanced features like a statistics system that makes tracking sales or resources easier...
+
+
+it provides other features like : 
+
+
+    - multi language support (arabic, french and english ) - this feature is not finished
+    - multiple color themes to choose from 
+    - data backup system 
+    - books tracking system ( tracking the rent books that are returning today , or those that are delayed ) 
+    - a books search features 
+
+
+
 ## Prerequisites
 * [Material Design in XAML Plugin](http://materialdesigninxaml.net/)
 * [SQLite/SQL server compact v4.0 toolbox](https://marketplace.visualstudio.com/items?itemName=ErikEJ.SQLServerCompactSQLiteToolbox)
@@ -57,9 +69,15 @@ All features are working
 The multi language features code works, but the application is not yet rewritten in arabic and french language
 
 ## Screenshots
-<p align="center"><img src="Libex/Resources/1.PNG" width="500" height="350"></p>
-<img align="left" src="Libex/Resources/1.PNG" width="500" height="350">
-<img align="left" src="Libex/Resources/an1.PNG" width="500" height="350">
-<img src="Libex/Resources/an2.PNG" width="500" height="350">
+<p align="center"><img src="Libex/Resources/screenshots/1.PNG" width="500" height="350"></p>
+<p align="center"><img src="Libex/Resources/screenshots/2.PNG" width="500" height="350"></p>
+<p align="center"><img src="Libex/Resources/screenshots/3.PNG" width="500" height="350"></p>
+<p align="center"><img src="Libex/Resources/screenshots/4.PNG" width="500" height="350"></p>
+<p align="center"><img src="Libex/Resources/screenshots/5.PNG" width="500" height="350"></p>
+<p align="center"><img src="Libex/Resources/screenshots/6.PNG" width="500" height="350"></p>
+<p align="center"><img src="Libex/Resources/screenshots/7.PNG" width="500" height="350"></p>
+<p align="center"><img src="Libex/Resources/screenshots/8.PNG" width="500" height="350"></p>
+<p align="center"><img src="Libex/Resources/screenshots/9.PNG" width="500" height="350"></p>
+
 
 
