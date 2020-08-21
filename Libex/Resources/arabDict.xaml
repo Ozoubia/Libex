@@ -6,4 +6,21 @@
     <system:String x:Key="close">اغلاق</system:String>
     <system:String x:Key="login">دخول</system:String>
     <system:String x:Key="welcome">ترحيب</system:String>
+    <system:String x:Key="welDescription">شكرًا لكم على تجربة Libex ،انه تطبيقنا المتواضع لإدارة المكتبات ، إنه سهل الاستخدام و يحتوي المزايا الاساسية للدارة المكتبات كذلك على ميزات أخرى جديدة  تجعل  الإدارة سهلة وممتعة ، جرب التطبيق ودعنا نعرف رأيك فيه، نتمنى ان تحبه.</system:String>
+    <system:String x:Key="getStartedBtn">إبدا</system:String>
+    <system:String x:Key="genViewTitle">نظرة عامة</system:String>
+    <system:String x:Key="genViewText">تم تصميم التطبيق بشكل جميل بحيث يحتوي على ميزات الإدارة الرئيسية والأساسية التي يتمتع بها كل تطبيق لإدارة المكتبات ، مثل إضافة الكتب أو حذفها أو تحريرها في مكتبتك ، كما يمكنك إضافة عملاء تحريرهم أو حذفهم ... يمكنك إدارة مبيعات وإيجارات الكتب بواجهة سهلة الاستخدام ومصممة جيدًا تجعل التنقل عبر التطبيق بأكمله بسيطًا وممتعًا.</system:String>
+    <system:String x:Key="addFeaturesTitle">ميزات إضافية</system:String>
+    <system:String x:Key="addFeaturesTxt1">بالإضافة إلى الوظائف الرئيسية، هناك مهام أكثر تقدمًا</system:String>
+    <system:String x:Key="addFeaturesTxt2">على سبيل المثال نظام إحصائي</system:String>
+    <system:String x:Key="statBtnText">إحصائيات</system:String>
+    <system:String x:Key="multpOptionsTitle">إعدادات متنوعة</system:String>
+    <system:String x:Key="multpOptionsTxt">Une application avec une interface attrayante qui rend ces longues heures de gestion des données moins ennuyeuses et plus amusantes avec la possibilité de choisir parmi différents skins de l'application, vous pouvez choisir celui qui convient le mieux à votre goût, à part les skins il y en a d'autres options que vous pouvez personnaliser et qui se trouvent dans le paramètre.</system:String>
+    <system:String x:Key="blueMainBtnText">لون ازرق</system:String>
+    <system:String x:Key="tealMainBtnText">لون اخضر</system:String>
+    <system:String x:Key="grayMainBtnText">لون رمادي</system:String>
+    <system:String x:Key="settingMainBtnText">إعدادات</system:String>
+
+
+
 </ResourceDictionary>

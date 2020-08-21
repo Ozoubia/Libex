@@ -6,4 +6,20 @@
     <system:String x:Key="close">close</system:String>
     <system:String x:Key="login">login</system:String>
     <system:String x:Key="welcome">WELCOME</system:String>
+    <system:String x:Key="welDescription">Thank you for trying Libex our humble library management application it's an easy to use advanced library management that has the coremanagement features plus other new features that we want you to check out which makes library management easy and fun, check them all out and let us think what do you think about them, we hope that you love it.</system:String>
+    <system:String x:Key="getStartedBtn">Get started</system:String>
+    <system:String x:Key="genViewTitle">General view</system:String>
+    <system:String x:Key="genViewText">Libex was beautifully designed to have the main and core management features that every library management application has, like adding , deleting or editing books in your library, you can also add clients edit or delete them... you can manage the sales and rents of the books with the easy to use and well designed interface that makes navigating through the entire application simple and fun.</system:String>
+    <system:String x:Key="addFeaturesTitle">Additional features</system:String>
+    <system:String x:Key="addFeaturesTxt1">In addition to the main functionnalities that Libex has there are more advanced onces</system:String>
+    <system:String x:Key="addFeaturesTxt2">For example a statistics system there are more advanced onces</system:String>
+    <system:String x:Key="statBtnText">Statistics</system:String>
+    <system:String x:Key="multpOptionsTitle">Multiple options</system:String>
+    <system:String x:Key="multpOptionsTxt">تطبيق بواجهة تجذب العين تجعل تلك الساعات الطويلة من إدارة البيانات أقل مللًا وأكثر متعة مع إمكانية الاختيار من بين الالوان المختلفة للتطبيق ، يمكنك اختيار التطبيق الذي يناسب ذوقك بشكل أفضل ، بخلاف الالوان الأخرى الموجودة الخيارات التي يمكنك تخصيصها والتي ستجدها في الإعداد.</system:String>
+    <system:String x:Key="blueMainBtnText">Blue Amber</system:String>
+    <system:String x:Key="tealMainBtnText">Teal Amber</system:String>
+    <system:String x:Key="grayMainBtnText">Gray Amber</system:String>
+    <system:String x:Key="settingMainBtnText">Settings</system:String>
+
+    
 </ResourceDictionary>

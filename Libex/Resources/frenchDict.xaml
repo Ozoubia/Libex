@@ -2,8 +2,24 @@
                     xmlns ="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
-    
+     
     <system:String x:Key="close">Fermer</system:String>
     <system:String x:Key="login">connexion</system:String>
     <system:String x:Key="welcome">BIENVENUE</system:String>
+    <system:String x:Key="welDescription">Merci d'avoir essayé Libex, notre humble application de gestion de bibliothèque, c'est une gestion de bibliothèque avancée facile à utiliser qui a les fonctionnalités principales de gestion  ainsi que d'autres  que nous voulons que vous vérifiiez qui rend la gestion de bibliothèque facile et amusante, Nous voulez savoir votre opinion d'elle, nous espérons que vous l'aimerez.</system:String>
+    <system:String x:Key="getStartedBtn">Commencer</system:String>
+    <system:String x:Key="genViewTitle">Vue générale</system:String>
+    <system:String x:Key="genViewText">Libex a été magnifiquement conçu pour avoir les fonctionnalités de gestion principales et de base de chaque application de gestion de bibliothèque, comme l'ajout, la suppression ou l'édition de livres dans votre bibliothèque, vous pouvez également ajouter des clients, les modifier ou les supprimer ... vous pouvez gérer les ventes et les loyers de les livres avec l'interface facile à utiliser et bien conçue qui rend la navigation dans l'ensemble de l'application simple et amusante.</system:String>
+    <system:String x:Key="addFeaturesTitle">Fonctionnalités supplémentaires</system:String>
+    <system:String x:Key="addFeaturesTxt1">En plus des principales fonctionnalités de Libex, il existe des onces plus avancées</system:String>
+    <system:String x:Key="addFeaturesTxt2">Par exemple un système de statistiques</system:String>
+    <system:String x:Key="statBtnText">Statistiques</system:String>
+    <system:String x:Key="multpOptionsTitle">Plusieurs Options</system:String>
+    <system:String x:Key="multpOptionsTxt">Une application avec une interface attrayante qui rend ces longues heures de gestion des données moins ennuyeuses et plus amusantes avec la possibilité de choisir parmi différents skins de l'application, vous pouvez choisir celui qui convient le mieux à votre goût, à part les skins il y en a d'autres options que vous pouvez personnaliser et qui se trouvent dans le paramètre.</system:String>
+    <system:String x:Key="blueMainBtnText">Bleu Amber</system:String>
+    <system:String x:Key="tealMainBtnText">Vert Amber</system:String>
+    <system:String x:Key="grayMainBtnText">Gris Amber</system:String>
+    <system:String x:Key="settingMainBtnText">Paramètres</system:String>
+
+
 </ResourceDictionary>

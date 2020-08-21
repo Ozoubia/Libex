@@ -167,22 +167,18 @@ Summer 2018.
                                                     <RowDefinition/>
                                                     <RowDefinition/>
                                                 </Grid.RowDefinitions>
-                                                <TextBlock Grid.Row="0" Foreground="White"  TextAlignment="Center" FontSize="23" HorizontalAlignment="Center">
-                                                Thank you for trying Libex our humble library management application <LineBreak/>
-                                                it's an easy to use advanced library management that has the core <LineBreak/>
-                                                management features plus other new features that we want you to check <LineBreak/>
-                                                out which makes library management easy and fun, check them all out     <LineBreak/>                    
-                                                and let us think what do you think about them, we hope that you love it. <LineBreak/>
+                                                <TextBlock Text="{DynamicResource welDescription}" TextWrapping="Wrap" Grid.Row="0" Foreground="White"  TextAlignment="Center" FontSize="23" HorizontalAlignment="Center">
+                                                
                                                 </TextBlock>
                                                 <Rectangle Grid.Row="0" Fill="White" Opacity="0.1"/>
-                                                <Button x:Name="getStartedBtn" Click="getStartedBtn_Click" Grid.Row="1" Margin="0 25 0 0 " Width="120" Height="38" Content="Get started" BorderBrush="{x:Null}" Background="{StaticResource SecondaryAccentBrush}"/>
+                                                <Button x:Name="getStartedBtn" Click="getStartedBtn_Click" Grid.Row="1" Margin="0 25 0 0 " Width="120" Height="38" Content="{DynamicResource getStartedBtn}" BorderBrush="{x:Null}" Background="{StaticResource SecondaryAccentBrush}"/>
                                             </Grid>
                                         </Expander>
                                         <Border Height="1" HorizontalAlignment="Stretch" SnapsToDevicePixels="True"/>
                                         <!--general view part-->
                                         <Expander HorizontalAlignment="Stretch" Expanded="Expander_Expanded" Collapsed="Expander_Collapsed" >
                                             <Expander.Header>
-                                                <TextBlock Text="General view" Style="{StaticResource MaterialDesignDisplay1TextBlock}" Foreground="{DynamicResource SecondaryAccentBrush}" HorizontalAlignment="Center" />
+                                                <TextBlock Text="{DynamicResource genViewTitle}" Style="{StaticResource MaterialDesignDisplay1TextBlock}" Foreground="{DynamicResource SecondaryAccentBrush}" HorizontalAlignment="Center" />
                                             </Expander.Header>
                                             <Expander.Background>
                                                 <ImageBrush ImageSource="Resources/stars.jpg" Stretch="UniformToFill"/>
@@ -194,11 +190,8 @@ Summer 2018.
                                                 </Grid.ColumnDefinitions>
                                                 <Rectangle Fill="White" Grid.Column="0" Opacity="0.1"/>
                                                 <StackPanel Orientation="Vertical" Grid.Column="0" Margin="0 20 0 0">
-                                                    <TextBlock Grid.Row="0"  Foreground="White" TextWrapping="Wrap" TextAlignment="Center" FontSize="23">
-                                                Libex was beautifully designed to have the main and core management features 
-                                                that every library management application has, like adding , deleting or editing books in your library,
-                                                you can also add clients edit or delete them... you can manage the sales and rents of the books 
-                                                    with the easy to use and well designed interface that makes navigating through the entire application simple and fun.
+                                                    <TextBlock Text="{DynamicResource genViewText}" Grid.Row="0"  Foreground="White" TextWrapping="Wrap" TextAlignment="Center" FontSize="23">
+                                                
                                                     </TextBlock>
                                                     <Separator Height="10" Width="Auto" Margin="100 20 100 0"/>
                                                 </StackPanel>
@@ -212,7 +205,7 @@ Summer 2018.
                                         <!--Additional features part-->
                                         <Expander HorizontalAlignment="Stretch" >
                                             <Expander.Header>
-                                                <TextBlock Text="Additional features" Style="{StaticResource MaterialDesignDisplay1TextBlock}" Foreground="{DynamicResource SecondaryAccentBrush}" HorizontalAlignment="Center" />
+                                                <TextBlock Text="{DynamicResource addFeaturesTitle}" Style="{StaticResource MaterialDesignDisplay1TextBlock}" Foreground="{DynamicResource SecondaryAccentBrush}" HorizontalAlignment="Center" />
                                             </Expander.Header>
                                             <Expander.Background>
                                                 <ImageBrush ImageSource="Resources/book.jpg" Stretch="UniformToFill"/>
@@ -232,8 +225,8 @@ Summer 2018.
                                                             <Button Grid.Column="3" x:Name="nextBtnFirstPage" Style="{StaticResource MaterialDesignFloatingActionMiniButton}" Padding="0 0 0 0"  Foreground="White" BorderBrush="{x:Null}" Background="{DynamicResource SecondaryAccentBrush}" ToolTip="Next" Command="{x:Static materialDesign:Transitioner.MoveNextCommand}">
                                                                 <materialDesign:PackIcon Kind="ArrowRightThick" Height="25" Width="25"/>
                                                             </Button>
-                                                            <TextBlock Grid.Column="1" Foreground="White" Margin="5" TextWrapping="Wrap" TextAlignment="Center" FontSize="23">
-                                                                In addition to the main functionnalities that Libex has there are more advanced onces
+                                                            <TextBlock Text="{DynamicResource addFeaturesTxt1}" Grid.Column="1" Foreground="White" Margin="5" TextWrapping="Wrap" TextAlignment="Center" FontSize="23">
+                                                                
                                                             </TextBlock>
                                                             <Rectangle Fill="White" Grid.Column="1" Opacity="0.1"/>
                                                             <Image Source="Resources/an1.PNG" Grid.Column="2" Stretch="UniformToFill" Margin="20 0 0 0"/>
@@ -251,8 +244,7 @@ Summer 2018.
                                                             <Button Grid.Column="0" Style="{StaticResource MaterialDesignFloatingActionMiniButton}" Padding="0 0 0 0"  Foreground="White" BorderBrush="{x:Null}" Background="{DynamicResource SecondaryAccentBrush}" ToolTip="Previous" Command="{x:Static materialDesign:Transitioner.MovePreviousCommand}">
                                                                 <materialDesign:PackIcon Kind="ArrowLeftThick" Height="25" Width="25"/>
                                                             </Button>
-                                                            <TextBlock Grid.Column="1" Foreground="White" Margin="5" TextWrapping="Wrap" TextAlignment="Center" FontSize="23">
-                                                                In addition to the main functionnalities that Libex has there are more advanced onces
+                                                            <TextBlock Text="{DynamicResource addFeaturesTxt2}" Grid.Column="1" Foreground="White" Margin="5" TextWrapping="Wrap" TextAlignment="Center" FontSize="23">
                                                             </TextBlock>
                                                             <Rectangle Fill="White" Grid.Column="1" Opacity="0.1"/>
                                                             <Image Source="Resources/an2.PNG" Grid.Column="2" Stretch="UniformToFill" Margin="20 0 0 0"/>
@@ -261,14 +253,14 @@ Summer 2018.
                                                     <materialDesign:TransitionerSlide OpeningEffect="{materialDesign:TransitionEffect FadeIn}">
                                                     </materialDesign:TransitionerSlide>
                                                 </materialDesign:Transitioner>
-                                                <Button x:Name="statisticsBtnInWelcomeTab" Click="statisticsBtnInWelcomeTab_Click" Width="100" Content="Statistics" Background="{DynamicResource SecondaryAccentBrush}" BorderBrush="{x:Null}" Margin="0 10 0 0"/>
+                                                <Button x:Name="statisticsBtnInWelcomeTab" Click="statisticsBtnInWelcomeTab_Click" Width="100" Content="{DynamicResource statBtnText}" Background="{DynamicResource SecondaryAccentBrush}" BorderBrush="{x:Null}" Margin="0 10 0 0"/>
                                             </StackPanel>
                                         </Expander>
                                         <Border Height="1" HorizontalAlignment="Stretch" SnapsToDevicePixels="True"/>
                                         <!--Multiple options part-->
                                         <Expander HorizontalAlignment="Stretch" >
                                             <Expander.Header>
-                                                <TextBlock Text="Multiple options" Style="{StaticResource MaterialDesignDisplay1TextBlock}" Foreground="{DynamicResource SecondaryAccentBrush}" HorizontalAlignment="Center" />
+                                                <TextBlock Text="{DynamicResource multpOptionsTitle}" Style="{StaticResource MaterialDesignDisplay1TextBlock}" Foreground="{DynamicResource SecondaryAccentBrush}" HorizontalAlignment="Center" />
                                             </Expander.Header>
                                             <Expander.Background>
                                                 <ImageBrush ImageSource="Resources/glow.jpg" Stretch="UniformToFill"/>
@@ -280,18 +272,15 @@ Summer 2018.
                                                 </Grid.ColumnDefinitions>
                                                 <Rectangle Fill="White" Grid.Column="0" Opacity="0.1"/>
                                                 <StackPanel Orientation="Vertical" Grid.Column="0" Margin="20 20 0 0">
-                                                    <TextBlock Grid.Row="0"  Foreground="White" TextWrapping="Wrap" TextAlignment="Center" FontSize="23">
-                                                        An application with an eye attracting interface that makes those long hours of 
-                                                        managing data less boring and more fun with the ability to choose among different skins of 
-                                                        the application, you can choose the one that suits your taste better, other than the skins 
-                                                        there are other options that you can customize that will find in the setting.
+                                                    <TextBlock Text="{DynamicResource multpOptionsTxt}" Grid.Row="0"  Foreground="White" TextWrapping="Wrap" TextAlignment="Center" FontSize="23">
+                                                        
                                                     </TextBlock>
                                                     <Separator Height="10" Width="Auto" Margin="100 20 100 0"/>
                                                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 20 20 20">
-                                                        <Button Background="#2196F3" Width="140" Content="Blue Amber" x:Name="blueAmberBtn" Click="blueAmberBtn_Click"/>
-                                                        <Button Margin="10 0 10 0" Background="#009688" Width="140" Content="Teal Amber" x:Name="tealAmberBtn" Click="tealAmberBtn_Click"/>
-                                                        <Button Background="#607D8B" Width="140" Content="Blue grey Amber" x:Name="blueGreyBtn" Click="blueGreyBtn_Click"/>
-                                                        <Button Background="{DynamicResource SecondaryAccentBrush}" BorderBrush="{x:Null}" Width="140" Margin="10 0 0 0" Content="Open Settings" x:Name="settingBtnInWelcomeTab" Click="settingBtnInWelcomeTab_Click"/>
+                                                        <Button Background="#2196F3" Width="140" Content="{DynamicResource blueMainBtnText}" x:Name="blueAmberBtn" Click="blueAmberBtn_Click"/>
+                                                        <Button Margin="10 0 10 0" Background="#009688" Width="140" Content="{DynamicResource tealMainBtnText}" x:Name="tealAmberBtn" Click="tealAmberBtn_Click"/>
+                                                        <Button Background="#607D8B" Width="140" Content="{DynamicResource grayMainBtnText}" x:Name="blueGreyBtn" Click="blueGreyBtn_Click"/>
+                                                        <Button Background="{DynamicResource SecondaryAccentBrush}" BorderBrush="{x:Null}" Width="140" Margin="10 0 0 0" Content="{DynamicResource settingMainBtnText}" x:Name="settingBtnInWelcomeTab" Click="settingBtnInWelcomeTab_Click"/>
                                                     </StackPanel>
                                                 </StackPanel>
                                             </Grid>
