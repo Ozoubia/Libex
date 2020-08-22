@@ -321,7 +321,7 @@
             Value="50"
             IsIndeterminate="True" Margin="0,0.4,-0.4,0.4" />
         </materialDesign:Card>
-        <TextBlock x:Name="textBlock2" Foreground="#1976D2" HorizontalAlignment="Right"  Height="28.8" Margin="0,0,43.6,23.6" TextWrapping="Wrap" Text="Loading..." VerticalAlignment="Bottom" Width="87.6"/>
+        <TextBlock x:Name="textBlock2" Foreground="#1976D2" HorizontalAlignment="Right"  Height="28.8" Margin="0,0,43.6,23.6" TextWrapping="Wrap" Text="{DynamicResource loadingTxt}" VerticalAlignment="Bottom" Width="87.6"/>
 
     </Grid>
 </Window>

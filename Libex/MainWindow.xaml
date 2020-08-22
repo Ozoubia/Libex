@@ -26,49 +26,49 @@
                         <ListViewItem  Height="50">
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                                 <materialDesign:PackIcon Kind="Home" Foreground="White" Height="30" Width="30" VerticalAlignment="Center" Margin="0 0 10 0"/>
-                                <TextBlock Text="DASHBOARD" FontSize="22" Foreground="White"/>
+                                <TextBlock Text="{DynamicResource menuDashboardTxt}" FontSize="22" Foreground="White"/>
                             </StackPanel>
                         </ListViewItem>
                         <ListViewItem Height="50">
                             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
                                 <materialDesign:PackIcon Kind="ChartBar" Foreground="White" Height="30" Width="30" VerticalAlignment="Center" Margin="0 0 10 0"/>
-                                <TextBlock Text="STATISTICS" FontSize="22" Foreground="White"/>
+                                <TextBlock Text="{DynamicResource menuStatsTxt}" FontSize="22" Foreground="White"/>
                             </StackPanel>
                         </ListViewItem>
                         <ListViewItem Height="50">
                             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
                                 <materialDesign:PackIcon Kind="AccountMultiple" Foreground="White" Height="30" Width="30" VerticalAlignment="Center" Margin="0 0 10 0"/>
-                                <TextBlock Text="CLIENTS" FontSize="22" Foreground="White"/>
+                                <TextBlock Text="{DynamicResource menuClientsTxt}" FontSize="22" Foreground="White"/>
                             </StackPanel>
                         </ListViewItem>
                         <ListViewItem Height="50">
                             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
                                 <materialDesign:PackIcon Kind="BookOpenPageVariant" Foreground="White" Height="30" Width="30" VerticalAlignment="Center" Margin="0 0 10 0"/>
-                                <TextBlock Text="BOOKS" FontSize="22" Foreground="White"/>
+                                <TextBlock Text="{DynamicResource menuBooksTxt}" FontSize="22" Foreground="White"/>
                             </StackPanel>
                         </ListViewItem>
                         <ListViewItem Height="50">
                             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
                                 <materialDesign:PackIcon Kind="BookOpenVariant" Foreground="White" Height="30" Width="30" VerticalAlignment="Center" Margin="0 0 10 0"/>
-                                <TextBlock Text="Orders" FontSize="22" Foreground="White"/>
+                                <TextBlock Text="{DynamicResource menuOrdersTxt}" FontSize="22" Foreground="White"/>
                             </StackPanel>
                         </ListViewItem>
                         <ListViewItem Height="50">
                             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
                                 <materialDesign:PackIcon Kind="Undo" Foreground="White" Height="30" Width="30" VerticalAlignment="Center" Margin="0 0 10 0"/>
-                                <TextBlock Text="RETURNED BOOKS" FontSize="22" Foreground="White"/>
+                                <TextBlock Text="{DynamicResource menuRBooksTxt}" FontSize="22" Foreground="White"/>
                             </StackPanel>
                         </ListViewItem>
                         <ListViewItem Height="50">
                             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
                                 <materialDesign:PackIcon Kind="CashUsd" Foreground="White" Height="30" Width="30" VerticalAlignment="Center" Margin="0 0 10 0"/>
-                                <TextBlock Text="SELLS/RENTS" FontSize="22" Foreground="White"/>
+                                <TextBlock Text="{DynamicResource menuSalesAndRentsTxt}" FontSize="22" Foreground="White"/>
                             </StackPanel>
                         </ListViewItem>
                         <ListViewItem Height="50">
                             <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
                                 <materialDesign:PackIcon Kind="Settings" Foreground="White" Height="30" Width="30" VerticalAlignment="Center" Margin="0 0 10 0"/>
-                                <TextBlock Text="SETTINGS" FontSize="22" Foreground="White"/>
+                                <TextBlock Text="{DynamicResource menuSettingsTxt}" FontSize="22" Foreground="White"/>
                             </StackPanel>
                         </ListViewItem>
                         <Separator Width="150"/>
@@ -142,7 +142,7 @@ Summer 2018.
                             <Button Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" >
                                 <materialDesign:PackIcon Kind="Information" Height="50" Width="50"></materialDesign:PackIcon>
                             </Button>
-                            <TextBlock Foreground="white" Text="About" TextAlignment="Center"></TextBlock>
+                            <TextBlock Foreground="white" Text="{DynamicResource mainAboutTxt}" TextAlignment="Center"></TextBlock>
                         </StackPanel>
                     </StackPanel>
                 </StackPanel>
@@ -276,12 +276,7 @@ Summer 2018.
                                                         
                                                     </TextBlock>
                                                     <Separator Height="10" Width="Auto" Margin="100 20 100 0"/>
-                                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 20 20 20">
-                                                        <Button Background="#2196F3" Width="140" Content="{DynamicResource blueMainBtnText}" x:Name="blueAmberBtn" Click="blueAmberBtn_Click"/>
-                                                        <Button Margin="10 0 10 0" Background="#009688" Width="140" Content="{DynamicResource tealMainBtnText}" x:Name="tealAmberBtn" Click="tealAmberBtn_Click"/>
-                                                        <Button Background="#607D8B" Width="140" Content="{DynamicResource grayMainBtnText}" x:Name="blueGreyBtn" Click="blueGreyBtn_Click"/>
-                                                        <Button Background="{DynamicResource SecondaryAccentBrush}" BorderBrush="{x:Null}" Width="140" Margin="10 0 0 0" Content="{DynamicResource settingMainBtnText}" x:Name="settingBtnInWelcomeTab" Click="settingBtnInWelcomeTab_Click"/>
-                                                    </StackPanel>
+                                                    
                                                 </StackPanel>
                                             </Grid>
                                         </Expander>
