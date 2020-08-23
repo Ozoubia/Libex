@@ -32,4 +32,27 @@
     <system:String x:Key="menuRBooksTxt">LIVRES RETOURNÉS</system:String>
     <system:String x:Key="menuSalesAndRentsTxt">VENTES|LOCATION</system:String>
     <system:String x:Key="menuSettingsTxt">PARAMETRES</system:String>
+    <!-- stats tab -->
+    <system:String x:Key="clientAnaliticsTxt">Analyse des clients</system:String>
+    <system:String x:Key="booksAnaliticsTxt">Livres statistiques</system:String>
+    <!-- setting tab -->
+    <system:String x:Key="globalSettTxt">Parametres generales</system:String>
+    <system:String x:Key="personelSettTxt">Parametres personnelles</system:String>
+    <!-- Sells and rents tab -->
+    <system:String x:Key="sellBookTxt">Vendre un livre</system:String>
+    <system:String x:Key="rentBookTxt">Louer un livre</system:String>
+    <!-- returned books tab -->
+    <system:String x:Key="booksReturningTodayTxt">Livres retournées aujourd'hui</system:String>
+    <system:String x:Key="delayedBooksTxt">Livres en retard</system:String>
+    <!-- Orders tab -->
+    <system:String x:Key="ListOfOrdersTxt">Listes des demandes</system:String>
+    <!-- clients tab -->
+    <system:String x:Key="clientsListTxt">Liste des clients</system:String>
+    <system:String x:Key="addClientsTxt">Ajouter un client</system:String>
+    <!-- Books tab -->
+    <system:String x:Key="forSaleBooksTxt">Livres a vendre</system:String>
+    <system:String x:Key="forRentBooksTxt">Livres a louer</system:String>
+    <system:String x:Key="currentlyRentBooksTxt">Livres actuellement louées</system:String>
+    <system:String x:Key="soldBooksTxt">Livres vendus</system:String>
+    <system:String x:Key="booksCategoriesTxt">Catégories de livres</system:String>
 </ResourceDictionary>

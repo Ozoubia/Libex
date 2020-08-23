@@ -32,7 +32,28 @@
     <system:String x:Key="menuRBooksTxt">RETURNED BOOKS</system:String>
     <system:String x:Key="menuSalesAndRentsTxt">SALES|RENTS</system:String>
     <system:String x:Key="menuSettingsTxt">SETTINGS</system:String>
-
-    
+    <!-- stats tab -->
+    <system:String x:Key="clientAnaliticsTxt">Clients Analytics</system:String>
+    <system:String x:Key="booksAnaliticsTxt">Books statistics</system:String>
+    <!-- setting tab -->
+    <system:String x:Key="globalSettTxt">Global settings</system:String>
+    <system:String x:Key="personelSettTxt">Personel settings</system:String>
+    <!-- Sells and rents tab -->
+    <system:String x:Key="sellBookTxt">Sell a book</system:String>
+    <system:String x:Key="rentBookTxt">Rent a book</system:String>
+    <!-- returned books tab -->
+    <system:String x:Key="booksReturningTodayTxt">Books returning today</system:String>
+    <system:String x:Key="delayedBooksTxt">Delayed books</system:String>
+    <!-- Orders tab -->
+    <system:String x:Key="ListOfOrdersTxt">Liste of orders</system:String>
+    <!-- clients tab -->
+    <system:String x:Key="clientsListTxt">Clients list</system:String>
+    <system:String x:Key="addClientsTxt">Add a client</system:String>
+    <!-- Books tab -->
+    <system:String x:Key="forSaleBooksTxt">For Sale Books</system:String>
+    <system:String x:Key="forRentBooksTxt">For Rent Books</system:String>
+    <system:String x:Key="currentlyRentBooksTxt">Currently Rend Books</system:String>
+    <system:String x:Key="soldBooksTxt">Sold Books</system:String>
+    <system:String x:Key="booksCategoriesTxt">Books Categories</system:String>
 
 </ResourceDictionary>

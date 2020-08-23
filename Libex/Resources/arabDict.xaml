@@ -32,5 +32,27 @@
     <system:String x:Key="menuRBooksTxt">الكتب المعادة</system:String>
     <system:String x:Key="menuSalesAndRentsTxt">بيع او استعارة</system:String>
     <system:String x:Key="menuSettingsTxt">الاعدادات</system:String>
-
+    <!-- stats tab -->
+    <system:String x:Key="clientAnaliticsTxt">تحليلات العملاء</system:String>
+    <system:String x:Key="booksAnaliticsTxt">إحصائيات الكتب</system:String>
+    <!-- setting tab -->
+    <system:String x:Key="globalSettTxt">إعدادات عامة</system:String>
+    <system:String x:Key="personelSettTxt">إعدادات شخصية</system:String>
+    <!-- Sells and rents tab -->
+    <system:String x:Key="sellBookTxt">بيع كتاب</system:String>
+    <system:String x:Key="rentBookTxt">استأجار كتاب</system:String>
+    <!-- returned books tab -->
+    <system:String x:Key="booksReturningTodayTxt">الكتب المعادة اليوم</system:String>
+    <system:String x:Key="delayedBooksTxt">الكتب المتأخرة</system:String>
+    <!-- Orders tab -->
+    <system:String x:Key="ListOfOrdersTxt">قائمة الطلبات</system:String>
+    <!-- clients tab -->
+    <system:String x:Key="clientsListTxt">قائمة العملاء</system:String>
+    <system:String x:Key="addClientsTxt">إضافة الزبون</system:String>
+    <!-- Books tab -->
+    <system:String x:Key="forSaleBooksTxt">كتب للبيع</system:String>
+    <system:String x:Key="forRentBooksTxt">كتب للإيجار</system:String>
+    <system:String x:Key="currentlyRentBooksTxt">كتب مستأجرة حاليا</system:String>
+    <system:String x:Key="soldBooksTxt">الكتب المباعة</system:String>
+    <system:String x:Key="booksCategoriesTxt">فئات الكتاب</system:String>
 </ResourceDictionary>

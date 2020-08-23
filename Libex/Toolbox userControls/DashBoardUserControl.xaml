@@ -13,7 +13,7 @@
             <Button Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}">
                 <materialDesign:PackIcon Kind="Information" Height="50" Width="50"></materialDesign:PackIcon>
             </Button>
-            <TextBlock Foreground="white" Text="About" TextAlignment="Center"></TextBlock>
+            <TextBlock Foreground="white" Text="{DynamicResource mainAboutTxt}" TextAlignment="Center"></TextBlock>
         </StackPanel>
     </StackPanel>
 </UserControl>

@@ -13,31 +13,31 @@
                 <Button x:Name="forSaleBtn" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" Click="forSaleBtn_Click">
                     <materialDesign:PackIcon Kind="BookOpen" Height="50" Width="50"></materialDesign:PackIcon>
                 </Button>
-                <TextBlock Foreground="white" Text="For Sale Books" TextAlignment="Center"></TextBlock>
+                <TextBlock Foreground="white" Text="{DynamicResource forSaleBooksTxt}" TextAlignment="Center"></TextBlock>
             </StackPanel>
             <StackPanel Margin="20 0 0 0" HorizontalAlignment="Center" Orientation="Vertical">
                 <Button x:Name="forRentBtn" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" Click="forRentBtn_Click">
                     <materialDesign:PackIcon Kind="Notebook" Height="50" Width="50"></materialDesign:PackIcon>
                 </Button>
-                <TextBlock Foreground="white" Text="For Rent Books" TextAlignment="Center"></TextBlock>
+                <TextBlock Foreground="white" Text="{DynamicResource forRentBooksTxt}" TextAlignment="Center"></TextBlock>
             </StackPanel>
             <StackPanel Margin="20 0 0 0" HorizontalAlignment="Center" Orientation="Vertical">
                 <Button x:Name="currentlyRentBtn" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" Click="currentlyRentBtn_Click">
                     <materialDesign:PackIcon Kind="BookSecure" Height="50" Width="50"></materialDesign:PackIcon>
                 </Button>
-                <TextBlock Foreground="white" Text="Currently Rent Books" TextAlignment="Center"></TextBlock>
+                <TextBlock Foreground="white" Text="{DynamicResource currentlyRentBooksTxt}" TextAlignment="Center"></TextBlock>
             </StackPanel>
             <StackPanel Margin="20 0 0 0" HorizontalAlignment="Center" Orientation="Vertical">
                 <Button x:Name="soldBooksBtn" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" Click="soldBooksBtn_Click">
                     <materialDesign:PackIcon Kind="BookOpenPageVariant" Height="50" Width="50"></materialDesign:PackIcon>
                 </Button>
-                <TextBlock Foreground="white" Text="Sold Books" TextAlignment="Center"></TextBlock>
+                <TextBlock Foreground="white" Text="{DynamicResource soldBooksTxt}" TextAlignment="Center"></TextBlock>
             </StackPanel>
             <StackPanel Margin="20 0 0 0" HorizontalAlignment="Center" Orientation="Vertical">
                 <Button x:Name="bkCategoryBtn" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" Click="bkCategoryBtn_Click">
                     <materialDesign:PackIcon Kind="Animation" Height="50" Width="50"></materialDesign:PackIcon>
                 </Button>
-                <TextBlock Foreground="white" Text="Books Categories" TextAlignment="Center"></TextBlock>
+                <TextBlock Foreground="white" Text="{DynamicResource booksCategoriesTxt}" TextAlignment="Center"></TextBlock>
             </StackPanel>
         </StackPanel>
     </materialDesign:TransitioningContent>

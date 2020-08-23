@@ -13,13 +13,13 @@
                 <Button x:Name="gSettingBtn" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" Click="gSettingBtn_Click">
                     <materialDesign:PackIcon Kind="Settings" Height="50" Width="50"></materialDesign:PackIcon>
                 </Button>
-                <TextBlock Foreground="white" Text="Global Settings" TextAlignment="Center"></TextBlock>
+                <TextBlock Foreground="white" Text="{DynamicResource globalSettTxt}" TextAlignment="Center"></TextBlock>
             </StackPanel>
             <StackPanel Margin="20 0 0 0" HorizontalAlignment="Center" Orientation="Vertical">
                 <Button x:Name="pSettingBtn" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" Click="pSettingBtn_Click">
                     <materialDesign:PackIcon Kind="AccountSettingsVariant" Height="50" Width="50"></materialDesign:PackIcon>
                 </Button>
-                <TextBlock Foreground="white" Text="Personal Settings" TextAlignment="Center"></TextBlock>
+                <TextBlock Foreground="white" Text="{DynamicResource personelSettTxt}" TextAlignment="Center"></TextBlock>
             </StackPanel>
         </StackPanel>
     </materialDesign:TransitioningContent>

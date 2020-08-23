@@ -13,13 +13,13 @@
                 <Button x:Name="clientListBtn" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" Click="clientListBtn_Click">
                     <materialDesign:PackIcon Kind="AccountMultiple" Height="50" Width="50"></materialDesign:PackIcon>
                 </Button>
-                <TextBlock Foreground="white" Text="Client List" TextAlignment="Center"></TextBlock>
+                <TextBlock Foreground="white" Text="{DynamicResource clientsListTxt}" TextAlignment="Center"></TextBlock>
             </StackPanel>
             <StackPanel Margin="20 0 0 0" HorizontalAlignment="Center" Orientation="Vertical">
                 <Button x:Name="addClientBtn" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0 0 0 0" Height="50" Width="50" Click="addClientBtn_Click">
                     <materialDesign:PackIcon Kind="AccountPlus" Height="50" Width="50"></materialDesign:PackIcon>
                 </Button>
-                <TextBlock Foreground="white" Text="Add Client" TextAlignment="Center"></TextBlock>
+                <TextBlock Foreground="white" Text="{DynamicResource addClientsTxt}" TextAlignment="Center"></TextBlock>
             </StackPanel>
         </StackPanel>
     </materialDesign:TransitioningContent>
