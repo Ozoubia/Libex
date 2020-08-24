@@ -63,11 +63,6 @@ automatically which is the best option, wait for them to be installed and you're
 * [Oussama Zoubia](https://github.com/Ozoubia) 
 * [Assaad Oussama Zeghina](https://github.com/DrAssaadZ)
 
-## Project status
-99% finished 
-All features are working 
-The multi language features code works, but the application is not yet rewritten in arabic and french language
-
 ## Screenshots
 <p align="center"><img src="Libex/Resources/screenshots/1.PNG" width="500" height="350"></p>
 <p align="center"><img src="Libex/Resources/screenshots/2.PNG" width="500" height="350"></p>
