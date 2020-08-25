@@ -7,7 +7,6 @@
 * [Setup](#setup)
 * [Built with](#built-with)
 * [Contributers](#contributers)
-* [Project Status](#project-status)
 * [Screenshots](#screenshots)
 
 
