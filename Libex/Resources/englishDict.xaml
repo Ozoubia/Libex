@@ -55,5 +55,21 @@
     <system:String x:Key="currentlyRentBooksTxt">Currently Rend Books</system:String>
     <system:String x:Key="soldBooksTxt">Sold Books</system:String>
     <system:String x:Key="booksCategoriesTxt">Books Categories</system:String>
+    <!-- add client user control -->
+    <system:String x:Key="addClientUSTxt">Add a client</system:String>
+    <system:String x:Key="nameHintUSTxt">Name</system:String>
+    <system:String x:Key="FnameHintUSTxt">Familly name</system:String>
+    <system:String x:Key="genderHintUSTxt">Gender</system:String>
+    <system:String x:Key="agePHintTxt">Age period</system:String>
+    <system:String x:Key="maleGendercomboboxTxt">Male</system:String>
+    <system:String x:Key="femaleGendercomboboxTxt">Female</system:String>
+    <system:String x:Key="agePeriodKidComboTxt">Kid</system:String>
+    <system:String x:Key="agePeriodTeenComboTxt">Teenager</system:String>
+    <system:String x:Key="agePeriodYaduntComboTxt">Young adult</system:String>
+    <system:String x:Key="agePeriodAdultComboTxt">Adult</system:String>
+    <system:String x:Key="agePeriodMAgedComboTxt">Mid aged</system:String>
+    <system:String x:Key="agePeriodElderComboTxt">Elderly</system:String>
+    <system:String x:Key="addClientBtnTxt">Add client</system:String>
+    <system:String x:Key="printBtnTxt">Print</system:String>
 
 </ResourceDictionary>

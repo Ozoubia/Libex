@@ -55,4 +55,20 @@
     <system:String x:Key="currentlyRentBooksTxt">Livres actuellement louées</system:String>
     <system:String x:Key="soldBooksTxt">Livres vendus</system:String>
     <system:String x:Key="booksCategoriesTxt">Catégories de livres</system:String>
+    <!-- add client user control -->
+    <system:String x:Key="addClientUSTxt">Ajouter un client</system:String>
+    <system:String x:Key="nameHintUSTxt">Prenom</system:String>
+    <system:String x:Key="FnameHintUSTxt">Nom</system:String>
+    <system:String x:Key="genderHintUSTxt">Sex</system:String>
+    <system:String x:Key="agePHintTxt">Period d'age</system:String>
+    <system:String x:Key="maleGendercomboboxTxt">Male</system:String>
+    <system:String x:Key="femaleGendercomboboxTxt">Female</system:String>
+    <system:String x:Key="agePeriodKidComboTxt">Enfant</system:String>
+    <system:String x:Key="agePeriodTeenComboTxt">Jeun</system:String>
+    <system:String x:Key="agePeriodYaduntComboTxt">Jeun adult</system:String>
+    <system:String x:Key="agePeriodAdultComboTxt">Adulte</system:String>
+    <system:String x:Key="agePeriodMAgedComboTxt">Âge moyen</system:String>
+    <system:String x:Key="agePeriodElderComboTxt">Âgée</system:String>
+    <system:String x:Key="addClientBtnTxt">Ajouter un client</system:String>
+    <system:String x:Key="printBtnTxt">Imprimer</system:String>
 </ResourceDictionary>

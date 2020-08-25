@@ -55,4 +55,20 @@
     <system:String x:Key="currentlyRentBooksTxt">كتب مستأجرة حاليا</system:String>
     <system:String x:Key="soldBooksTxt">الكتب المباعة</system:String>
     <system:String x:Key="booksCategoriesTxt">فئات الكتاب</system:String>
+    <!-- add client user control -->
+    <system:String x:Key="addClientUSTxt">أضف عميل</system:String>
+    <system:String x:Key="nameHintUSTxt">الإسم</system:String>
+    <system:String x:Key="FnameHintUSTxt">اللقب</system:String>
+    <system:String x:Key="genderHintUSTxt">الجنس</system:String>
+    <system:String x:Key="agePHintTxt">فترة العمر</system:String>
+    <system:String x:Key="maleGendercomboboxTxt">ذكر</system:String>
+    <system:String x:Key="femaleGendercomboboxTxt">أنثى</system:String>
+    <system:String x:Key="agePeriodKidComboTxt">طفل</system:String>
+    <system:String x:Key="agePeriodTeenComboTxt">شاب</system:String>
+    <system:String x:Key="agePeriodYaduntComboTxt">شاب بالغ</system:String>
+    <system:String x:Key="agePeriodAdultComboTxt">بالغ</system:String>
+    <system:String x:Key="agePeriodMAgedComboTxt">منتصف العمر</system:String>
+    <system:String x:Key="agePeriodElderComboTxt">مسن</system:String>
+    <system:String x:Key="addClientBtnTxt">أضف عميل</system:String>
+    <system:String x:Key="printBtnTxt">إطبع الآن</system:String>
 </ResourceDictionary>
